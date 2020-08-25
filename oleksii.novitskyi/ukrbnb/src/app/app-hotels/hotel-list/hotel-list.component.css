@@ -1,0 +1,16 @@
+.hotel-list-container {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    margin: 30px;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hotel-container{
+    display: flex;
+    flex-direction: column;
+  }

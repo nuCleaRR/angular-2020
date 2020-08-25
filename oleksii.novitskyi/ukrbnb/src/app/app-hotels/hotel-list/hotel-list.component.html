@@ -1,0 +1,23 @@
+<div class='hotel-list-container'>
+    <div class="hotel-container">
+        <div>{{hotels[0].title}}</div>
+        <img src="{{hotels[0].picture}}">
+        <button (click)="onSelected(hotels[0])">Choose me!</button>
+    </div>
+
+    <div>|</div>
+
+    <div class="hotel-container">
+        <div>{{hotels[1].title}}</div>
+        <img src="{{hotels[1].picture}}">
+        <button (click)="onSelected(hotels[1])">Choose me!</button>
+    </div>
+
+    <div>|</div>
+
+    <div class="hotel-container">
+        <div>{{hotels[2].title}}</div>
+        <img src="{{hotels[2].picture}}">
+        <button (click)="onSelected(hotels[2])">Choose me!</button>
+    </div>
+</div>

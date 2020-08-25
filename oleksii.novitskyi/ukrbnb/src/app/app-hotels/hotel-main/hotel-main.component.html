@@ -1,0 +1,4 @@
+<div class='hotel-list-container'>
+    <app-hotel-list (selectedHotelEvent)="selectItem($event)"></app-hotel-list>
+    <app-hotel-info [selectedHotel] = "selectedHotel"></app-hotel-info>
+</div>
